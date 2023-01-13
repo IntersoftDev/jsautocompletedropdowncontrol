@@ -38,5 +38,15 @@ how many maximum options are visible in the dropdown.
 <br><br>
 
 This application has been __tested with Google Chrome browser and Firefox__.  
-__Firefox Note__: the MutationObserver oddly does not trigger on the first character typed into a field, but only upon the second or subsequent characters. This seems to be a bug (or odd "feature") with FF.
+__Firefox Note__: the MutationObserver oddly does not trigger on the first character typed into a field, 
+but only upon the second or subsequent characters. This seems to be a bug (or odd "feature") with FF.
 <br><br>
+
+## Screenshot / Example 
+Here is an example of the dropdown select as it appears when typing characters into the editable DIV field
+associated with the dropdown; this shows how the matching list elements are displayed in the dropdown 
+with their current matched letters highlighted (and a scrollbar to access the entire updated list 
+of potential desired entries).
+<br><br>
+<img src="dropdown-example-screenshot.png" alt="Dropdown autocomplete combo box example" width="400"/>
+<br>
